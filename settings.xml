@@ -1,0 +1,97 @@
+<settings>
+    <smtp>
+        <server>mail.ua.energy</server>
+        <port>25</port>
+        <!-- True - use authentification, False - do not use it-->
+        <use_auth>False</use_auth>
+        <username></username>
+        <password></password>
+        <!-- True - user SSL, False - use TSL protocol-->
+        <use_SSL>False</use_SSL> 
+    </smtp>
+    <email>
+        <sender_name>Recon Server - Argon01</sender_name>
+        <sender_email>recon.dnes@ua.energy</sender_email>
+        <signature>Маєте проблему з розсилкою? Напишіть її на nicenko.vv@ua.energy</signature>
+        <message>Отримані нові файли реєстраторів Рекон. Перевірте вкладення до даного листа</message>
+        <!-- True - opt in messages, False - opt out messages-->
+        <send_messages>True</send_messages>
+    </email>
+    <recipients>
+        <recipient email="nicenko.vv@ua.energy" files="*"/>
+        <recipient email="shatkovsky.ai@ua.energy" files="*"/>
+        <recipient email="Kapustin.AS@ua.energy" files="*"/>
+        <recipient email="Lepeha.MV@ua.energy" files="*"/>
+        <recipient email="Bulanov.PO@ua.energy" files="*"/>
+        <recipient email="Usov.VO@ua.energy" files="*"/>
+        <recipient email="Marchenko.KV@ua.energy" files="*"/>
+        <recipient email="Seredenko.AA@ua.energy" files="*"/>
+        <recipient email="Vakal-Bondarenko.AV@ua.energy" files="*"/>
+	<recipient email="rmd4@mail.dnepr.npcu.com.ua" files="*"/>
+
+        <recipient email="Chergovij.DN330@ua.energy" files="399,757,198,181,815,168,810,444,196,762,737,250,753,764,362"/>
+        <recipient email="Chergovij.KAM330@ua.energy" files="399,757,198,181,815,168,810,444,196,762,737,250,753,764,362"/>
+        <recipient email="Chergovij.PVL330@ua.energy" files="399,757,198,181,815,168,810,444,196,762,737,250,753,764,362"/>
+        <recipient email="Chergovij.PROM330@ua.energy" files="399,757,198,181,815,168,810,444,196,762,737,250,753,764,362"/>
+        <recipient email="disp-drec@ua.energy" files="399,757,198,181,815,168,810,444,196,762,737,250,753,764,362"/>
+        
+<recipient email="Rumiantsev.AS@ua.energy" files="370, 215 399,757,198,181,815,168,810,444,196,762,737,250,753,764,362,370,215"/>
+        <recipient email="Kostenko.SU@ua.energy" files="761,366,642,264,641,197"/>
+        <recipient email="Muntian.AV@ua.energy" files="761,366,642,264,641,197"/>
+        <recipient email="Obidin.VO@ua.energy" files="761,366,642,264,641,197"/>
+        <recipient email="Ovcharenko.IV@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Rodenko.OV@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Savenko.YA@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Sambros.SV@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Nikolenko.BB@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Zagorodko.VM@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="samoilenko.VV@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Sysoliatin.VA@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Egorov.VV@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        
+	<recipient email="Koshko.OM@ua.energy" files="330,733,812,817,741,177,190,348,538,740,631,881,395,566,638,875,443,281,639,870,1167,425,539,734,331,568,720,869,906,388,387,1388,1387"/>
+        <recipient email="Semenchenko.VP@ua.energy" files="264,642,761,366,641,197"/>
+
+	<recipient email="Dudnyk.MK@ua.energy" files="370,215"/>
+	<recipient email="katrichenko.SA@ua.energy" files="370,215"/>
+
+
+        <recipient email="Krasno.DS@ua.energy" files="763,256,524,551,758,464,359,372,505,816,134,135,136,142,102,769,766,771,329,592,759,807,805,167,369,506,591"/>
+        <recipient email="Bigdan.VP@ua.energy" files="763,256,524,551,758,464,359,372,505,816,134,135,136,142,102,769,766,771,329,592,759,807,805,167,369,506,591"/>
+
+	<recipient email="chergovij.zp750@ua.energy" files="134,135,136,142,763,769,766,771"/>
+	<recipient email="Makarov.VV@ua.energy" files="134,135,136,142,763,769,766,771"/>
+	<recipient email="Tertychnyi.OV@ua.energy" files="134,135,136,142,763,769,766,771"/>
+	<recipient email="Hetmanets.RS@ua.energy" files="134,135,136,142,763,769,766,771"/>
+	<recipient email="Aleksandrov.AS@ua.energy " files="134,135,136,142,763,769,766,771"/>
+	<recipient email="hryshchenko.OE@ua.energy" files="256,524,551,758,464,359,372,505,816,134,135,136,142,102,769,766,771,329,592,759,807,805,167,369,506,591"/>
+
+        <recipient email="Klepikov.SI@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181"/>
+        <recipient email="Kotenko.MV@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181"/>
+        <recipient email="Korychkovskiy.SG@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181,370,215"/>
+
+        <recipient email="Bondar.VV@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181"/>
+        <recipient email="Svintsytskyy.SV@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181"/>
+
+        <recipient email="Klimov.OM@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181,370,215"/>
+	<recipient email="kusch.em@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181,370,215"/>
+
+        <recipient email="Vasylenko.VY@ua.energy" files="444,810,815,1168,250,737,762,1196,362,753,764,399,757,198,181"/>
+        <recipient email="Babak.II@ua.energy" files="348,425,538,539,631,734,740,881"/>
+        <recipient email="Makhliuk.AV@ua.energy" files="264,642,761,366,641,197"/>
+        <recipient email="Tsybenko.VS@ua.energy" files="264,642,761,366,641,197"/>
+
+
+
+        <!-- Add more recipients as needed -->
+    </recipients>
+    <monitor>
+        <!-- Choose monitored directory, absolute path-->
+        <directory>data</directory>
+        <!-- Choose monitoring interval in sec-->
+        <interval>10</interval>
+        <!-- Choose date in format dd.MM.YYYY from which program will be monitoring new files
+        leave it 'none' if you choose sending files from Today-->
+        <from_date>none</from_date>
+    </monitor>
+</settings>
